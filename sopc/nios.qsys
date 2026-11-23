@@ -6,7 +6,7 @@
    version="1.0"
    description=""
    tags=""
-   categories="" />
+   categories="System" />
  <parameter name="bonusData"><![CDATA[bonusData 
 {
    element clk_0
@@ -112,16 +112,6 @@
  <instanceScript></instanceScript>
  <interface name="clk" internal="clk_0.clk_in" type="clock" dir="end" />
  <interface
-   name="intel_niosv_m_0_platform_irq_rx"
-   internal="intel_niosv_m_0.platform_irq_rx"
-   type="interrupt"
-   dir="start" />
- <interface
-   name="jtag_uart_0_irq"
-   internal="jtag_uart_0.irq"
-   type="interrupt"
-   dir="end" />
- <interface
    name="pio_0_external_connection"
    internal="pio_0.external_connection"
    type="conduit"
@@ -142,7 +132,7 @@
   <parameter name="AUTO_CLK_RESET_DOMAIN" value="1" />
   <parameter name="AUTO_DEVICE" value="5CSEBA6U23I7" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
-  <parameter name="AUTO_PLATFORM_IRQ_RX_INTERRUPTS_USED" value="0" />
+  <parameter name="AUTO_PLATFORM_IRQ_RX_INTERRUPTS_USED" value="1" />
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x0' end='0x20000' type='altera_avalon_onchip_memory2.s1' /><slave name='intel_niosv_m_0.dm_agent' start='0x20000' end='0x30000' type='intel_niosv_m.dm_agent' /><slave name='intel_niosv_m_0.timer_sw_agent' start='0x30000' end='0x30040' type='intel_niosv_m.timer_sw_agent' /><slave name='pio_0.s1' start='0x30040' end='0x30050' type='altera_avalon_pio.s1' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x30050' end='0x30058' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></parameter>
   <parameter name="deviceFamily" value="Cyclone V" />
@@ -300,6 +290,13 @@
    version="24.1"
    start="clk_0.clk"
    end="onchip_memory2_0.clk1" />
+ <connection
+   kind="interrupt"
+   version="24.1"
+   start="intel_niosv_m_0.platform_irq_rx"
+   end="jtag_uart_0.irq">
+  <parameter name="irqNumber" value="0" />
+ </connection>
  <connection
    kind="reset"
    version="24.1"
