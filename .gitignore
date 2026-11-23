@@ -10,6 +10,7 @@ output_files/
 *.pin
 *.sof
 *.pof
+*.bak
 
 # Platform Designer (Qsys) generated & UI files
 .qsys_edit/
