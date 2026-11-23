@@ -1,5 +1,7 @@
+library nios;
 library ieee;
 use ieee.std_logic_1164.all;
+use nios.nios;
 
 entity tp_nios_v is
     port (
@@ -10,8 +12,16 @@ entity tp_nios_v is
     );
 end entity tp_nios_v;
 
+
+
 architecture rtl of tp_nios_v is
     
 begin
+	nios0 : entity nios.nios
+    port map (
+        clk_clk                          => i_clk,
+        reset_reset_n                    => i_rst_n,
+        pio_0_external_connection_export => o_led
+    );
     
 end architecture rtl;
