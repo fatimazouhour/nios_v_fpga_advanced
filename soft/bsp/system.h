@@ -4,7 +4,7 @@
  * Machine generated for CPU 'intel_niosv_m_0' in SOPC Builder design 'nios'
  * SOPC Builder design path: ../../sopc/nios.sopcinfo
  *
- * Generated: Mon Nov 23 11:27:35 CET 2026
+ * Generated: Mon Nov 23 11:36:58 CET 2026
  */
 
 /*
@@ -125,6 +125,7 @@
  */
 
 #define ALT_DEVICE_FAMILY "Cyclone V"
+#define ALT_ENHANCED_INTERRUPT_API_PRESENT
 #define ALT_IRQ_BASE NULL
 #define ALT_LOG_PORT "/dev/null"
 #define ALT_LOG_PORT_BASE 0x0
@@ -249,8 +250,8 @@
 
 #define ALT_MODULE_CLASS_jtag_uart_0 altera_avalon_jtag_uart
 #define JTAG_UART_0_BASE 0x30050
-#define JTAG_UART_0_IRQ -1
-#define JTAG_UART_0_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define JTAG_UART_0_IRQ 0
+#define JTAG_UART_0_IRQ_INTERRUPT_CONTROLLER_ID 0
 #define JTAG_UART_0_NAME "/dev/jtag_uart_0"
 #define JTAG_UART_0_READ_DEPTH 64
 #define JTAG_UART_0_READ_THRESHOLD 8

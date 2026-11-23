@@ -16,3 +16,8 @@ output_files/
 .qsys_edit/
 sopc/nios/
 *.sopcinfo
+
+soft/.metadata/
+soft/app/build/
+soft/**/.project
+soft/**/.cproject
