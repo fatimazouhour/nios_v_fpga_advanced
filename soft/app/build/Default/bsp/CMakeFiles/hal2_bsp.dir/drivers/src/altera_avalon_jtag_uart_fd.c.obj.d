@@ -1,0 +1,19 @@
+bsp/CMakeFiles/hal2_bsp.dir/drivers/src/altera_avalon_jtag_uart_fd.c.obj: \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/drivers/src/altera_avalon_jtag_uart_fd.c \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/alt_types.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/sys/alt_dev.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/system.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/linker.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/sys/alt_llist.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/priv/alt_dev_llist.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/drivers/inc/altera_avalon_jtag_uart.h \
+ C:/altera_lite/25.1std/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/stddef.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/sys/alt_alarm.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/sys/alt_llist.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/priv/alt_alarm.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/sys/alt_warning.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/os/alt_hooks.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/os/alt_sem.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/priv/alt_no_error.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/os/alt_flag.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/drivers/inc/altera_avalon_jtag_uart_fd.h

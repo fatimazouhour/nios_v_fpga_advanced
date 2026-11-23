@@ -1,0 +1,21 @@
+bsp/CMakeFiles/hal2_bsp.dir/HAL/src/intel_fpga_platform_api_niosv.c.obj: \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/src/intel_fpga_platform_api_niosv.c \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/intel_fpga_platform_api.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/sys/intel_fpga_platform_api_niosv.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/system.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/linker.h \
+ C:/altera_lite/25.1std/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/stdarg.h \
+ C:/altera_lite/25.1std/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/stdbool.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/sys/intel_fpga_api_cmn_msg.h \
+ C:/altera_lite/25.1std/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/stdint.h \
+ C:/altera_lite/25.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/stdint.h \
+ C:/altera_lite/25.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/machine/_default_types.h \
+ C:/altera_lite/25.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/sys/features.h \
+ C:/altera_lite/25.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/_newlib_version.h \
+ C:/altera_lite/25.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/sys/_intsup.h \
+ C:/altera_lite/25.1std/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/sys/_stdint.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/intel_fpga_platform.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/sys/intel_fpga_platform_niosv.h \
+ C:/altera_lite/25.1std/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/stddef.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/sys/intel_fpga_api_cmn_dfl.h \
+ C:/GitHub/nios_v_fpga_advanced/soft/bsp/HAL/inc/sys/intel_fpga_api_cmn_inf.h
